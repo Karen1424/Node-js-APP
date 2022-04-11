@@ -1,0 +1,11 @@
+{
+    "PORT": 3005,
+
+    "DB_HOST": "localhost",
+    "DB_PORT": 3306,
+    "DB_DATABASE":"my_db",
+    "DB_USERNAME":"root",
+    "DB_PASSWORD":"karen1424@@",
+
+    "JWT_SECRET":"AQMqi7wL2ZxvKxUaHVYRLZWJJEK8L4G3BCfY0evXDRxUke2gz"
+}
