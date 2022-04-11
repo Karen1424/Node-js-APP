@@ -22,7 +22,7 @@ module.exports = (req,res,next) => {
     req.sentinel = jwt.verify(token, config.get("JWT_SECRET"));
     next();
     } catch(e) {
-        console.log("error a", e);
+        console.log("error ", e);
     return res.status(401)
       .json({
         msg: "Token is not valid"
