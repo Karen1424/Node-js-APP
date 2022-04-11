@@ -1,5 +1,6 @@
 # Node-js-APP
 Simple API app with NodeJs Express MySQL and Redis
+
 POST http://localhost/api/v1/auth/signup
 Request {
   email: required,
