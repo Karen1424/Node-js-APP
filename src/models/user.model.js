@@ -195,23 +195,6 @@ class User {
     });
   };
   
-  static userToBook() {
-    async () => {
-      const client = createClient();
-  
-      client.on('error',(err) => console.log('Redis client error !!!',err));
-      await client.connect();
-      //client.set('user_to_book','barev dzez ARAM!!!');
-      //client.set('aram','asatryan');
-      const value = await client.get('user_to_book');
-      //const value2 = await client.get('aram');
-      console.log(value);
-      //console.log(value2);
-    }
-  }
-
-};
-
 User.STATUS_ACTIVE = 1;
 User.STATUS_INACTIVE = 0;
 
